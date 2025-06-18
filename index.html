@@ -15,21 +15,27 @@
       background: white;
       padding: 30px;
       border-radius: 10px;
-      max-width: 700px;
+      max-width: 800px;
       margin: auto;
       box-shadow: 0 0 20px rgba(0,0,0,0.2);
     }
-    h1 {
+    h1, h2, h3 {
       color: #0033cc;
-      margin-bottom: 10px;
     }
     p {
       font-size: 18px;
-      margin-bottom: 25px;
+      margin-bottom: 20px;
     }
     img {
       max-width: 100%;
       border-radius: 8px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 10px;
     }
     .buy-button {
       background: #007bff;
@@ -39,9 +45,24 @@
       text-decoration: none;
       border-radius: 6px;
       transition: background 0.3s;
+      display: inline-block;
+      margin-top: 20px;
     }
     .buy-button:hover {
       background: #0056b3;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background: crimson;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+    button:hover {
+      background: darkred;
     }
     footer {
       margin-top: 50px;
@@ -53,13 +74,32 @@
 <body>
   <div class="box">
     <h1>NOT ENOUGH DICK???</h1>
-    <p>Here is the <strong>LEKARSTWO</strong> — God Damn It — 1000MG 🔥</p>
+    <p>Here is the <strong>LEKARSTWO</strong> — God Damn It — 1000MG 💊</p>
     <img src="medicine.jpg" alt="Lekarstwo God Damn It">
-    <p><a href="#" class="buy-button">BUY NOW (Totally Not a Scam)</a></p>
+    <a href="#" class="buy-button">BUY NOW (100% Real, Trust Me Bro)</a>
+
+    <h2>👨‍⚕️ Approved by 9.5 out of 10 Doctors</h2>
+    <p>(That 0.5 was a dentist, and he was jealous.)</p>
+
+    <h2>🗣 What People Are Saying</h2>
+    <ul>
+      <li>💬 “I took one pill... now I *am* the pill.” – Chad, age 23</li>
+      <li>💬 “Side effects included unstoppable confidence.” – Big Greg</li>
+      <li>💬 “Didn’t even take it. Still feel different.” – Anonymous</li>
+    </ul>
+
+    <h3>⚠️ WARNING</h3>
+    <p>May cause extreme handsomeness, irresistible energy, or mild cosmic awareness. Do not take if you're already too awesome.</p>
+
+    <h2>📊 Clinical Results</h2>
+    <img src="https://placekitten.com/400/200" alt="Definitely Real Science Graph">
+    <p>*Graph may or may not depict cat productivity over time.</p>
+
+    <button onclick="alert('You have overdosed on confidence.')">Take Another Pill</button>
   </div>
 
   <footer>
-    &copy; 2025 Totally Legit Pharma™ | We are not responsible for anything.
+    &copy; 2025 Totally Legit Pharma™ | Side effects include becoming a meme.
   </footer>
 </body>
 </html>
